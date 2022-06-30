@@ -82,7 +82,7 @@ def evaluate(model_input, model, state_dict_locs, device):
             yhat_list.append(yhat/10)
             
             #Empty CUDA cache
-            torch.cuda.empty_cache()
+            #torch.cuda.empty_cache()
             
     return np.asarray(yhat_list)
 #_____________________________________________________________________________

@@ -27,4 +27,4 @@ def plotter(popc_data, yhats, mean, pth):
     fig.tight_layout(pad=1)
     
     plt.savefig(pth+'2H_order.png',transparent=True),
-    plt.savefig(pth+'2H_order.svg',transparent=True)
+    #plt.savefig(pth+'2H_order.svg',transparent=True)
